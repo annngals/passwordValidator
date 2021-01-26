@@ -55,7 +55,7 @@ class CaseRule() : Rule() {
             }
         }
         if (!flag) {
-            throw RuleException("The password isn't contain the symbols of lowercase")
+            throw RuleException("The password isn't contains the symbols of lowercase")
         }
 
         flag = false
@@ -67,7 +67,7 @@ class CaseRule() : Rule() {
             }
         }
         if (!flag) {
-            throw RuleException("The password isn't contain the symbols of uppercase")
+            throw RuleException("The password isn't contains the symbols of uppercase")
         }
     }
 }
