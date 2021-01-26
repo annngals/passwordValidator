@@ -43,7 +43,7 @@ class LengthRule(len: Int) : Rule() {
 
 class CaseRule() : Rule() {
     override val name: String
-        get() = "Register"
+        get() = "Case"
 
     override fun checkRule(password: String) {
         var flag = false
