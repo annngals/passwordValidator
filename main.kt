@@ -204,7 +204,7 @@ class Validator() {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     val password = "eh1fUIDn!ejrj"
     val validator = Validator()
     validator.addRule(LengthRule(6))
